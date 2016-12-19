@@ -20,8 +20,24 @@ body {
   .container .btn {
     background: #93c47d;
     background: -webkit-linear-gradient(#93c47d, #38761d);
-    background: linear-gradient(#93c47d, #38761d); }
+    background: linear-gradient(#93c47d, #38761d);
+    align-self: center;
+    margin-top: 20px;
+    text-align: center;
+    display: block; }
     .container .btn a {
       color: white; }
+  .container #welcome {
+    width: 80%;
+    display: block;
+    text-align: center;
+    margin: 0 auto; }
+    .container #welcome h3 {
+      color: white;
+      font-family: sans-serif; }
+    .container #welcome h2 {
+      color: white;
+      font-family: 'Shadows Into Light', cursive;
+      text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */

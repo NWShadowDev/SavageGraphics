@@ -28,8 +28,28 @@ body {
     background: #93c47d;
     background: -webkit-linear-gradient(#93c47d, #38761d);
     background: linear-gradient(#93c47d, #38761d);
+    // margin: 0 auto;
+    align-self: center;
+    margin-top: 20px;
+    text-align: center;
+    display: block;
     a {
       color:white;
+    }
+  }
+  #welcome {
+    width: 80%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    h3 {
+      color: white;
+      font-family: sans-serif;
+    }
+    h2 {
+      color: white;
+      font-family: 'Shadows Into Light', cursive;
+      text-align: center;
     }
   }
 }
