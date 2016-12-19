@@ -1,3 +1,15 @@
-
+.container {
+  width: 100%; }
+  .container .well-lg {
+    background-color: black; }
+    .container .well-lg h1 {
+      margin: 0 auto;
+      font-family: 'Shadows Into Light', cursive;
+      font-size: 90pt;
+      text-align: center;
+      color: #B8E986;
+      text-shadow: 3px 3px 10px #9BB65D; }
+      .container .well-lg h1 .bigger {
+        font-size: 120pt; }
 
 /*# sourceMappingURL=styles.css.map */
