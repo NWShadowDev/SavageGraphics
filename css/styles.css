@@ -6,7 +6,8 @@ body {
 .container {
   width: 100%; }
   .container .well {
-    background-color: transparent; }
+    background-color: transparent;
+    border: none; }
     .container .well h1 {
       margin: 0 auto;
       font-family: 'Shadows Into Light', cursive;
@@ -16,5 +17,11 @@ body {
       text-shadow: 3px 3px 10px #9BB65D; }
       .container .well h1 .bigger {
         font-size: 120pt; }
+  .container .btn {
+    background: #93c47d;
+    background: -webkit-linear-gradient(#93c47d, #38761d);
+    background: linear-gradient(#93c47d, #38761d); }
+    .container .btn a {
+      color: white; }
 
 /*# sourceMappingURL=styles.css.map */

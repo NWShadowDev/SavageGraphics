@@ -11,6 +11,7 @@ body {
   width: 100%;
   .well {
     background-color: transparent;
+    border: none;
     h1 {
       margin:0 auto;
       font-family: 'Shadows Into Light', cursive;
@@ -21,6 +22,14 @@ body {
       .bigger {
         font-size: 120pt;
       }
+    }
+  }
+  .btn {
+    background: #93c47d;
+    background: -webkit-linear-gradient(#93c47d, #38761d);
+    background: linear-gradient(#93c47d, #38761d);
+    a {
+      color:white;
     }
   }
 }
