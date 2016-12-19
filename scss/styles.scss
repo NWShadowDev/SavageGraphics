@@ -7,8 +7,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+// main container
 .container {
   width: 100%;
+  //base well class style
   .well {
     background-color: transparent;
     border: none;
@@ -25,6 +27,7 @@ body {
       }
     }
   }
+  //welcome div on index page
   #welcome {
     width: 60%;
     display: block;
