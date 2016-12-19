@@ -14,6 +14,10 @@ body {
       color: #B8E986;
       text-shadow: 3px 3px 10px #9BB65D;
       z-index: -1; }
+    .container .well img {
+      position: absolute;
+      width: 10%;
+      height: auto; }
   .container #nav ul li {
     list-style-type: none;
     font-family: 'Shadows Into Light', cursive;
@@ -51,6 +55,14 @@ body {
           padding: 10px;
           width: 100px;
           height: 100px; }
+    .container #main h3 {
+      font-family: monospace;
+      padding: 10px;
+      margin: 0 auto;
+      text-align: center;
+      background: rgba(17, 69, 17, 0.6);
+      width: 900px;
+      border: 3px solid #9BB65D; }
   .container #footer {
     background-image: url("../img/MountainRange.png");
     width: 100%;

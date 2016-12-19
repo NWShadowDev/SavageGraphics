@@ -23,6 +23,11 @@ body {
       text-shadow: 3px 3px 10px $header-shadow;
       z-index: -1;
     }
+    img {
+      position: absolute;
+      width: 10%;
+      height: auto;
+    }
   }
   #nav {
     ul {
@@ -71,6 +76,15 @@ body {
           height: 100px;
         }
       }
+    }
+    h3 {
+      font-family: monospace;
+      padding: 10px;
+      margin: 0 auto;
+      text-align: center;
+      background: rgba(17,69,17, 0.6);
+      width: 900px;
+      border: 3px solid $header-shadow;
     }
   }
   #footer {
