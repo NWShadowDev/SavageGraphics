@@ -17,27 +17,28 @@ body {
       text-shadow: 3px 3px 10px #9BB65D; }
       .container .well h1 .bigger {
         font-size: 120pt; }
-  .container .btn {
-    background: #93c47d;
-    background: -webkit-linear-gradient(#93c47d, #38761d);
-    background: linear-gradient(#93c47d, #38761d);
-    align-self: center;
-    margin-top: 20px;
-    text-align: center;
-    display: block; }
-    .container .btn a {
-      color: white; }
   .container #welcome {
-    width: 80%;
+    width: 60%;
     display: block;
     text-align: center;
-    margin: 0 auto; }
+    margin: 60px auto auto auto; }
+    .container #welcome .btn {
+      background: #93c47d;
+      background: -webkit-linear-gradient(#93c47d, #38761d);
+      background: linear-gradient(#93c47d, #38761d);
+      margin-top: 40px;
+      text-align: center;
+      width: 200px; }
+      .container #welcome .btn:hover {
+        background-color: lightgreen; }
+      .container #welcome .btn a {
+        color: white; }
     .container #welcome h3 {
       color: white;
-      font-family: sans-serif; }
+      font-family: serif; }
     .container #welcome h2 {
       color: white;
       font-family: 'Shadows Into Light', cursive;
-      text-align: center; }
+      font-size: 40pt; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -24,32 +24,33 @@ body {
       }
     }
   }
-  .btn {
-    background: #93c47d;
-    background: -webkit-linear-gradient(#93c47d, #38761d);
-    background: linear-gradient(#93c47d, #38761d);
-    // margin: 0 auto;
-    align-self: center;
-    margin-top: 20px;
-    text-align: center;
-    display: block;
-    a {
-      color:white;
-    }
-  }
   #welcome {
-    width: 80%;
+    width: 60%;
     display: block;
     text-align: center;
-    margin: 0 auto;
+    margin: 60px auto auto auto;
+    .btn {
+      background: #93c47d;
+      background: -webkit-linear-gradient(#93c47d, #38761d);
+      background: linear-gradient(#93c47d, #38761d);
+      margin-top: 40px;
+      text-align: center;
+      width: 200px;
+      &:hover {
+        background-color: lightgreen;
+      }
+      a {
+        color:white;
+      }
+    }
     h3 {
       color: white;
-      font-family: sans-serif;
+      font-family: serif;
     }
     h2 {
       color: white;
       font-family: 'Shadows Into Light', cursive;
-      text-align: center;
+      font-size: 40pt;
     }
   }
 }
