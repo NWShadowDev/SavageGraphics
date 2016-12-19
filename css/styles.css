@@ -1,15 +1,20 @@
+body {
+  background-image: url("../img/forest.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 .container {
   width: 100%; }
-  .container .well-lg {
-    background-color: black; }
-    .container .well-lg h1 {
+  .container .well {
+    background-color: transparent; }
+    .container .well h1 {
       margin: 0 auto;
       font-family: 'Shadows Into Light', cursive;
       font-size: 90pt;
       text-align: center;
       color: #B8E986;
       text-shadow: 3px 3px 10px #9BB65D; }
-      .container .well-lg h1 .bigger {
+      .container .well h1 .bigger {
         font-size: 120pt; }
 
 /*# sourceMappingURL=styles.css.map */
