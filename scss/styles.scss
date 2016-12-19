@@ -19,16 +19,22 @@ body {
       text-align: center;
       color: $header-inner;
       text-shadow: 3px 3px 10px $header-shadow;
+      z-index: -1;
       .bigger {
         font-size: 120pt;
       }
+    }
+    img {
+      position: absolute;
+      left: 42%;
+      z-index: 0;
     }
   }
   #welcome {
     width: 60%;
     display: block;
     text-align: center;
-    margin: 60px auto auto auto;
+    margin: 100px auto auto auto;
     .btn {
       background: #93c47d;
       background: -webkit-linear-gradient(#93c47d, #38761d);
@@ -37,7 +43,9 @@ body {
       text-align: center;
       width: 200px;
       &:hover {
-        background-color: lightgreen;
+        background: #b6d7a8;
+        background: -webkit-linear-gradient(#b6d7a8, #6aa84f);
+        background: linear-gradient(#b6d7a8, #6aa84f);
       }
       a {
         color:white;
