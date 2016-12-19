@@ -24,17 +24,12 @@ body {
         font-size: 120pt;
       }
     }
-    img {
-      position: absolute;
-      left: 42%;
-      z-index: 0;
-    }
   }
   #welcome {
     width: 60%;
     display: block;
     text-align: center;
-    margin: 100px auto auto auto;
+    margin: 60px auto auto auto;
     .btn {
       background: #93c47d;
       background: -webkit-linear-gradient(#93c47d, #38761d);
@@ -60,5 +55,25 @@ body {
       font-family: 'Shadows Into Light', cursive;
       font-size: 40pt;
     }
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .well {
+    width: 100%;
+    h1 {
+      text-align: center;
+    }
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    height: auto;
   }
 }

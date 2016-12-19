@@ -18,15 +18,11 @@ body {
       z-index: -1; }
       .container .well h1 .bigger {
         font-size: 120pt; }
-    .container .well img {
-      position: absolute;
-      left: 42%;
-      z-index: 0; }
   .container #welcome {
     width: 60%;
     display: block;
     text-align: center;
-    margin: 100px auto auto auto; }
+    margin: 60px auto auto auto; }
     .container #welcome .btn {
       background: #93c47d;
       background: -webkit-linear-gradient(#93c47d, #38761d);
@@ -47,5 +43,21 @@ body {
       color: white;
       font-family: 'Shadows Into Light', cursive;
       font-size: 40pt; }
+  .container img {
+    display: block;
+    margin: 0 auto;
+    text-align: center; }
+
+@media screen and (max-width: 768px) {
+  .well {
+    width: 100%; }
+    .well h1 {
+      text-align: center; }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    height: auto; } }
 
 /*# sourceMappingURL=styles.css.map */
