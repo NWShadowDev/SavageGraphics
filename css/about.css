@@ -4,7 +4,8 @@ body {
   background-repeat: no-repeat; }
 
 .container {
-  width: 100%; }
+  width: 100%;
+  padding: 0; }
   .container .well {
     background-color: transparent;
     border: none; }
@@ -42,11 +43,31 @@ body {
     background-repeat: no-repeat;
     border: 3px solid #9BB65D; }
   .container #main #about-text {
+    z-index: 2;
+    background: rgba(72, 91, 53, 0.5);
+    padding: 10px;
+    overflow: scroll;
     float: right;
+    right: 200px;
+    bottom: 400px;
     color: white;
     position: relative;
     width: 500px;
-    height: 200px; }
+    height: 500px; }
+    .container #main #about-text h3 {
+      font-family: 'Shadows Into Light', cursive; }
+    .container #main #about-text .underline {
+      text-decoration: underline; }
+    .container #main #about-text li {
+      list-style-type: none;
+      font-family: sans-serif; }
+  .container #footer {
+    background-image: url("../img/MountainRange.png");
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    opacity: 0.8;
+    position: fixed; }
 
 @media screen and (max-width: 768px) {
   .well {

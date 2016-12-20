@@ -4,7 +4,8 @@ body {
   background-repeat: no-repeat; }
 
 .container {
-  width: 100%; }
+  width: 100%;
+  padding: 0; }
   .container .well {
     background-color: transparent;
     border: none; }
