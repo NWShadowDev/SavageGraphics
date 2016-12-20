@@ -31,6 +31,19 @@ body {
         text-decoration: none;
         color: #fff;
         text-shadow: 3px 3px 10px #9BB65D; }
+  .container form {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: white; }
+    .container form input {
+      width: 20%;
+      text-align: center;
+      margin: 0 auto; }
+    .container form h3 {
+      text-align: center;
+      color: #B8E986;
+      margin-bottom: 30px; }
 
 @media screen and (max-width: 768px) {
   .well {
