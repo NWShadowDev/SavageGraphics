@@ -55,6 +55,9 @@ body {
       border: 2px solid black;
     }
   }
+  .jumbotron {
+    background: $transparent-green;
+  }
   .col-lg-12 {
     h1 {
       color: $black;
@@ -66,6 +69,10 @@ body {
       text-align: center;
     }
   }
+}
+
+.img-responsive {
+  margin-left: 20px;
 }
 
 @media screen and (max-width: 768px) {

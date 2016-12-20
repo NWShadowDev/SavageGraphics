@@ -35,6 +35,8 @@ body {
     margin-bottom: 10px; }
     .container .thumb img {
       border: 2px solid black; }
+  .container .jumbotron {
+    background: rgba(72, 91, 53, 0.5); }
   .container .col-lg-12 h1 {
     color: #000;
     text-shadow: 3px 3px 10px #9BB65D;
@@ -42,6 +44,9 @@ body {
     font-size: 4em; }
   .container .col-lg-12 .head-title {
     text-align: center; }
+
+.img-responsive {
+  margin-left: 20px; }
 
 @media screen and (max-width: 768px) {
   .well {
