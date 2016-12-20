@@ -52,6 +52,21 @@ body {
     font-size: 4em; }
   .container .col-lg-12 .head-title {
     text-align: center; }
+  .container .col-lg-12 ul {
+    text-align: center;
+    margin-bottom: 30px; }
+    .container .col-lg-12 ul li {
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px; }
+      .container .col-lg-12 ul li a {
+        color: #fff;
+        font-size: 16pt;
+        font-family: arial; }
+        .container .col-lg-12 ul li a:hover {
+          text-decoration: none;
+          color: #000;
+          text-shadow: 3px 3px 10px #9BB65D; }
 
 .img-responsive {
   margin-left: 20px; }
