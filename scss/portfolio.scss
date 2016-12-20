@@ -3,11 +3,14 @@ $header-inner : #B8E986;
 $header-shadow: #9BB65D;
 $black : #000;
 $white: #fff;
-
+html {
+  height: 100%;
+}
 body {
   background-image: url('../img/forest.jpg');
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
+
 }
 // main container
 .container {
