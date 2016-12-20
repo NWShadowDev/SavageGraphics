@@ -51,6 +51,9 @@ body {
   }
   .thumb {
     margin-bottom: 10px;
+    img {
+      border: 2px solid black;
+    }
   }
   .col-lg-12 {
     h1 {
@@ -58,6 +61,9 @@ body {
       text-shadow: 3px 3px 10px $header-shadow;
       font-family: 'Shadows Into Light', cursive;
       font-size: 4em;
+    }
+    .head-title {
+      text-align: center;
     }
   }
 }

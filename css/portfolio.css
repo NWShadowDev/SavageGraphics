@@ -33,11 +33,15 @@ body {
         text-shadow: 3px 3px 10px #9BB65D; }
   .container .thumb {
     margin-bottom: 10px; }
+    .container .thumb img {
+      border: 2px solid black; }
   .container .col-lg-12 h1 {
     color: #000;
     text-shadow: 3px 3px 10px #9BB65D;
     font-family: 'Shadows Into Light', cursive;
     font-size: 4em; }
+  .container .col-lg-12 .head-title {
+    text-align: center; }
 
 @media screen and (max-width: 768px) {
   .well {
