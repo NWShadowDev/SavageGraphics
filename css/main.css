@@ -64,12 +64,6 @@ body {
       background: rgba(17, 69, 17, 0.6);
       width: 900px;
       border: 3px solid #9BB65D; }
-  .container #footer {
-    background-image: url("../img/MountainRange.png");
-    width: 100%;
-    height: 300px;
-    background-size: cover;
-    opacity: 0.8; }
 
 @media screen and (max-width: 768px) {
   .well {

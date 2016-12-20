@@ -32,12 +32,6 @@ body {
         text-decoration: none;
         color: #fff;
         text-shadow: 3px 3px 10px #9BB65D; }
-  .container #footer {
-    background-image: url("../img/MountainRange.png");
-    width: 100%;
-    height: 300px;
-    background-size: cover;
-    opacity: 0.8; }
 
 @media screen and (max-width: 768px) {
   .well {
