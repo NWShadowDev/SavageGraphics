@@ -31,6 +31,22 @@ body {
         text-decoration: none;
         color: #fff;
         text-shadow: 3px 3px 10px #9BB65D; }
+  .container #main #picture {
+    margin: 0 auto;
+    margin-left: 15%;
+    transform: rotate(10deg);
+    width: 300px;
+    height: 400px;
+    background-image: url("../img/profile.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 3px solid #9BB65D; }
+  .container #main #about-text {
+    float: right;
+    color: white;
+    position: relative;
+    width: 500px;
+    height: 200px; }
 
 @media screen and (max-width: 768px) {
   .well {

@@ -49,6 +49,27 @@ body {
       }
     }
   }
+  #main {
+    #picture {
+      margin: 0 auto;
+      margin-left: 15%;
+      transform: rotate(10deg);
+      width: 300px;
+      height: 400px;
+      background-image: url('../img/profile.jpg');
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      border: 3px solid $header-shadow;
+    }
+    #about-text {
+      float: right;
+      color: white;
+      position: relative;
+      width: 500px;
+      height: 200px;
+    }
+  }
+
   // #footer {
   //   background-image: url('../img/MountainRange.png');
   //   width: 100%;
