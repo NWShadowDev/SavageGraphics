@@ -37,6 +37,11 @@ body {
       border: 2px solid black; }
   .container .jumbotron {
     background: rgba(72, 91, 53, 0.5); }
+    .container .jumbotron h5 {
+      font-family: 'Shadows Into Light', cursive;
+      font-size: 20pt;
+      color: #9BB65D;
+      text-align: center; }
   .container .col-lg-12 h1 {
     color: #000;
     text-shadow: 3px 3px 10px #9BB65D;
@@ -47,6 +52,8 @@ body {
 
 .img-responsive {
   margin-left: 20px; }
+  .img-responsive:hover {
+    opacity: 0.5; }
 
 @media screen and (max-width: 768px) {
   .well {

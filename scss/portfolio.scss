@@ -57,6 +57,12 @@ body {
   }
   .jumbotron {
     background: $transparent-green;
+    h5 {
+      font-family: 'Shadows Into Light', cursive;
+      font-size: 20pt;
+      color: $header-shadow;
+      text-align: center;
+    }
   }
   .col-lg-12 {
     h1 {
@@ -73,6 +79,9 @@ body {
 
 .img-responsive {
   margin-left: 20px;
+  &:hover {
+    opacity: 0.5;
+  }
 }
 
 @media screen and (max-width: 768px) {
