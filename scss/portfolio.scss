@@ -12,7 +12,6 @@ body {
 // main container
 .container {
   width: 100%;
-  padding: 0;
   //base well class style
   .well {
     background-color: transparent;
@@ -48,6 +47,17 @@ body {
           }
         }
       }
+    }
+  }
+  .thumb {
+    margin-bottom: 10px;
+  }
+  .col-lg-12 {
+    h1 {
+      color: $black;
+      text-shadow: 3px 3px 10px $header-shadow;
+      font-family: 'Shadows Into Light', cursive;
+      font-size: 4em;
     }
   }
 }

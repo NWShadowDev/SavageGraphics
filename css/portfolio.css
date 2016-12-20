@@ -4,8 +4,7 @@ body {
   background-repeat: no-repeat; }
 
 .container {
-  width: 100%;
-  padding: 0; }
+  width: 100%; }
   .container .well {
     background-color: transparent;
     border: none; }
@@ -32,6 +31,13 @@ body {
         text-decoration: none;
         color: #fff;
         text-shadow: 3px 3px 10px #9BB65D; }
+  .container .thumb {
+    margin-bottom: 10px; }
+  .container .col-lg-12 h1 {
+    color: #000;
+    text-shadow: 3px 3px 10px #9BB65D;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4em; }
 
 @media screen and (max-width: 768px) {
   .well {
