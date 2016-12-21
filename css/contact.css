@@ -37,9 +37,15 @@ body {
         text-shadow: 3px 3px 10px #9BB65D; }
   .container form {
     display: block;
-    text-align: center;
     margin: 0 auto;
-    color: white; }
+    text-align: center;
+    color: white;
+    background: rgba(72, 91, 53, 0.5);
+    width: 700px;
+    padding: 10px;
+    border: 3px solid #9BB65D; }
+    .container form a {
+      color: #B8E986; }
     .container form input {
       width: 20%;
       text-align: center;
@@ -47,6 +53,9 @@ body {
     .container form h3 {
       text-align: center;
       color: #B8E986;
+      margin-bottom: 30px; }
+    .container form h4 {
+      text-align: center;
       margin-bottom: 30px; }
 
 @media screen and (max-width: 768px) {
