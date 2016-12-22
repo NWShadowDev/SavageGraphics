@@ -110,7 +110,7 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 425px) {
   .well {
     width: 100%;
     h3 {
@@ -150,6 +150,11 @@ body {
       text-align: center;
       width: 100%;
       font-size: 14pt;
+    }
+  }
+  .col-lg-12 {
+    h1 {
+      text-align: center;
     }
   }
 }
