@@ -53,9 +53,6 @@ h4 {
         position: relative;
         left: 150px;
         background: rgba(17, 69, 17, 0.2); }
-        .container #main .row .col-md-4:hover {
-          opacity: 0.5;
-          transform: scale(0.8); }
         .container #main .row .col-md-4 img {
           display: block;
           margin: 0 auto;
@@ -69,6 +66,10 @@ h4 {
       text-align: center;
       background: rgba(17, 69, 17, 0.6);
       border: 3px solid #9BB65D; }
+    .container #main h4 a {
+      color: #B8E986; }
+      .container #main h4 a:hover {
+        color: white; }
 
 @media screen and (max-width: 768px) {
   .well {
