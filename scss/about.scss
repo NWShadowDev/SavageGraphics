@@ -95,14 +95,46 @@ body {
 @media screen and (max-width: 768px) {
   .well {
     width: 100%;
-    h1 {
+    h3 {
       text-align: center;
+      margin: 10px auto;
+
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 50%;
+      height: auto;
     }
   }
-  img {
-    display: block;
-    margin: 0 auto;
-    width: 20%;
-    height: auto;
+  #nav {
+    ul {
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 10px;
+      li {
+        a {
+          font-size: 16pt;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+  #main {
+    .row {
+      .col-md-4 {
+        left: auto;
+      }
+    }
+    h3 {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+      font-size: 14pt;
+    }
+    #about-text {
+      color: red;
+    }
   }
 }
