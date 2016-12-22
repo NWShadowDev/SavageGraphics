@@ -17,6 +17,10 @@ body {
       color: #B8E986;
       text-shadow: 3px 3px 10px #9BB65D;
       z-index: -1; }
+    .container .well img {
+      position: absolute;
+      width: 10%;
+      height: auto; }
   .container #nav ul li {
     list-style-type: none;
     font-family: 'Shadows Into Light', cursive;
@@ -30,31 +34,27 @@ body {
         text-decoration: none;
         color: #fff;
         text-shadow: 3px 3px 10px #9BB65D; }
-  .container .jumbotron {
-    background: rgba(72, 91, 53, 0.5); }
-    .container .jumbotron h5 {
+  .container .thumb {
+    margin-bottom: 10px; }
+    .container .thumb img {
+      border: 2px solid black; }
+  .container .row {
+    background: rgba(72, 91, 53, 0.5);
+    margin: 0 auto;
+    display: block; }
+    .container .row h5 {
       font-family: 'Shadows Into Light', cursive;
       font-size: 20pt;
-      color: #9BB65D; }
-    .container .jumbotron .row {
-      display: block;
-      margin: 0 auto; }
-      .container .jumbotron .row .col-md-4 {
-        display: block;
-        margin: 0 auto; }
-        .container .jumbotron .row .col-md-4 .thumb {
-          display: block;
-          margin: 0 auto;
-          margin-bottom: 10px; }
-          .container .jumbotron .row .col-md-4 .thumb img a {
-            border: 2px solid black;
-            display: block;
-            margin: 0 auto; }
+      color: #9BB65D;
+      text-align: center;
+      display: block; }
   .container .col-lg-12 h1 {
     color: #000;
     text-shadow: 3px 3px 10px #9BB65D;
     font-family: 'Shadows Into Light', cursive;
     font-size: 4em; }
+  .container .col-lg-12 .head-title {
+    text-align: center; }
   .container .col-lg-12 ul {
     text-align: center;
     margin-bottom: 30px; }
@@ -71,8 +71,10 @@ body {
           color: #000;
           text-shadow: 3px 3px 10px #9BB65D; }
 
-.center-block:hover {
-  opacity: 0.5; }
+.center-block, .img-responsive {
+  margin-left: 20px; }
+  .center-block:hover, .img-responsive:hover {
+    opacity: 0.5; }
 
 @media screen and (max-width: 768px) and (min-width: 425px) {
   .well {

@@ -15,6 +15,7 @@ body {
 // main container
 .container {
   width: 100%;
+
   //base well class style
   .well {
     background-color: transparent;
@@ -25,6 +26,11 @@ body {
       color: $header-inner;
       text-shadow: 3px 3px 10px $header-shadow;
       z-index: -1;
+    }
+    img {
+      position: absolute;
+      width: 10%;
+      height: auto;
     }
   }
   #nav {
@@ -47,31 +53,28 @@ body {
       }
     }
   }
-
-  .jumbotron {
+  .thumb {
+    margin-bottom: 10px;
+    img {
+      border: 2px solid black;
+      // display: block;
+      // margin: 0 auto;
+    }
+  }
+  .row {
     background: $transparent-green;
+    margin: 0 auto;
+    display: block;
+    .col-lg-3 {
+
+    }
+
     h5 {
       font-family: 'Shadows Into Light', cursive;
       font-size: 20pt;
       color: $header-shadow;
-    }
-    .row {
+      text-align: center;
       display: block;
-      margin: 0 auto;
-      .col-md-4 {
-        display: block;
-        margin: 0 auto;
-        .thumb {
-          display: block;
-          margin: 0 auto;
-          margin-bottom: 10px;
-          img a {
-            border: 2px solid black;
-            display: block;
-            margin: 0 auto;
-          }
-        }
-      }
     }
   }
   .col-lg-12 {
@@ -80,6 +83,10 @@ body {
       text-shadow: 3px 3px 10px $header-shadow;
       font-family: 'Shadows Into Light', cursive;
       font-size: 4em;
+    }
+
+    .head-title {
+      text-align: center;
     }
     ul {
       text-align: center;
@@ -103,7 +110,8 @@ body {
   }
 }
 
-.center-block{
+.center-block, .img-responsive {
+  margin-left: 20px;
   &:hover {
     opacity: 0.5;
   }
