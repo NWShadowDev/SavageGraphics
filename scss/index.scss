@@ -44,14 +44,14 @@ body {
     .btn {
       background: #93c47d;
       background: -webkit-linear-gradient(#93c47d, #38761d);
-      background: linear-gradient(#93c47d, #38761d);
+      background: -moz-linear-gradient(#93c47d, #38761d);
       margin-top: 40px;
       text-align: center;
       width: 200px;
       &:hover {
         background: #b6d7a8;
         background: -webkit-linear-gradient(#b6d7a8, #6aa84f);
-        background: linear-gradient(#b6d7a8, #6aa84f);
+        background: -moz-linear-gradient(#b6d7a8, #6aa84f);
       }
       a {
         color:white;

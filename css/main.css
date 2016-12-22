@@ -4,7 +4,8 @@ html {
 body {
   background-image: url("../img/forest.jpg");
   background-size: 100% 100%;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
 
 h4 {
   color: white;
@@ -23,7 +24,7 @@ h4 {
       text-shadow: 3px 3px 10px #9BB65D;
       z-index: -1; }
     .container .well img {
-      position: absolute;
+      padding-top: 10px;
       width: 10%;
       height: auto; }
   .container #nav ul li {
@@ -46,8 +47,6 @@ h4 {
       margin: 0 auto; }
       .container #main .row .col-md-4 {
         border: 3px solid #9BB65D;
-        height: 400px;
-        width: 300px;
         text-align: center;
         padding: 10px;
         margin: 20px;
@@ -69,19 +68,35 @@ h4 {
       margin: 0 auto;
       text-align: center;
       background: rgba(17, 69, 17, 0.6);
-      width: 900px;
       border: 3px solid #9BB65D; }
 
 @media screen and (max-width: 768px) {
   .well {
     width: 100%; }
-    .well h1 {
-      text-align: center; }
+    .well h3 {
+      text-align: center;
+      margin: 10px auto; }
+    .well img {
+      display: block;
+      margin: 0 auto;
+      width: 50%;
+      height: auto; }
 
-  img {
+  #nav ul {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px; }
+    #nav ul li a {
+      font-size: 16pt;
+      margin: 0 auto; }
+
+  #main .row .col-md-4 {
+    left: auto; }
+  #main h3 {
     display: block;
     margin: 0 auto;
-    width: 20%;
-    height: auto; } }
+    text-align: center;
+    width: 100%;
+    font-size: 14pt; } }
 
 /*# sourceMappingURL=main.css.map */
