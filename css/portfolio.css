@@ -39,7 +39,6 @@ body {
     .container .thumb img {
       border: 2px solid black; }
   .container .row {
-    background: rgba(72, 91, 53, 0.5);
     margin: 0 auto;
     display: block; }
     .container .row h5 {
