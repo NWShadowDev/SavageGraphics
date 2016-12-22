@@ -42,7 +42,7 @@ body {
         background: -moz-linear-gradient(#b6d7a8, #6aa84f); }
     .container #welcome h3 {
       color: white;
-      font-family: serif; }
+      font-family: monospace; }
     .container #welcome h2 {
       color: white;
       font-family: 'Shadows Into Light', cursive;
